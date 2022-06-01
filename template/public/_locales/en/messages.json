@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "React Chrome Extension",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Build an extension with React!",
+    "description": "Description of the extension."
+  }
+}

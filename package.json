@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-typescript-chrome-extension",
+  "version": "0.0.1",
+  "description": "The base TypeScript Chrome Extension for Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainlancia/cra-template-typescript-chrome-extension.git"
+  },
+  "keywords": [
+    "react",
+    "chrome-extension",
+    "create-react-app",
+    "typescript"
+  ],
+  "author": "romainlancia",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/romainlancia/cra-template-typescript-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/romainlancia/cra-template-typescript-chrome-extension#readme",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
