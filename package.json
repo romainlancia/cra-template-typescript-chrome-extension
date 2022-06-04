@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-chrome-extension",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "The base TypeScript Chrome Extension for Create React App.",
   "repository": {
     "type": "git",
@@ -10,7 +10,10 @@
     "react",
     "chrome-extension",
     "create-react-app",
-    "typescript"
+    "typescript",
+    "husky",
+    "lint-staged",
+    "prettier"
   ],
   "author": "romainlancia",
   "license": "MIT",
@@ -24,5 +27,11 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "scripts": {
+    "prettier": "npx prettier --write --ignore-unknown ."
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
 }

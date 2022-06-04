@@ -2,10 +2,27 @@ import React from 'react';
 
 function App() {
   return (
-    <div className='bg-gray-900 flex items-center justify-center h-screen'>
-      <div className='.antialiased font-sans font-bold capitalize text-2xl text-white'>
-        <span className='underline'>Hello World</span>👋
-      </div>
+    <div
+      style={{
+        backgroundColor: '#111827',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100vh',
+        width: '100%',
+      }}
+    >
+      <span
+        style={{
+          textDecoration: 'underline',
+          color: 'white',
+          fontWeight: 700,
+          fontSize: '20px',
+        }}
+      >
+        Hello World
+      </span>
+      <span style={{ fontSize: 20 }}>👋</span>
     </div>
   );
 }

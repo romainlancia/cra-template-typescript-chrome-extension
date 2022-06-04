@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run husky:setup`
+
+Install husky and create a pre-commit file which execute `npx lint-staged` before commiting files to github
+
+`lint-staged` will execute a routine to do, for now it will format all the files using `prettier`
+
+You can modify this routine by editing the file `.lintstagedrc` located at the root of the project
+
 ### `npm start`
 
 Runs the app in the development mode.\
